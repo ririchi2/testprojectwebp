@@ -1,3 +1,5 @@
 export default function bar() {
-  console.log("Jhonathan no se entera de nada.");
+  const text = document.createElement("h1");
+  text.innerHTML = "Hello world";
+  document.body.appendChild(text);
 }
